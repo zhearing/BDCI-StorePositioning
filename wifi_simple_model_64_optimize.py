@@ -54,7 +54,7 @@ for mall in mall_list:
     params = {
             'objective': 'multi:softmax',
             'eta': 0.1,
-            'max_depth': 9,
+            'max_depth': 8,
             'eval_metric': 'merror',
             'seed': 0,
             'missing': -999,
